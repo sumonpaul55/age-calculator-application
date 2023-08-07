@@ -1,0 +1,61 @@
+.main {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.907);
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.filds {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.name,
+.dob {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 28px;
+}
+
+input {
+  padding: 5px;
+  font-size: 18px;
+  outline: 0;
+}
+input[type="submit"] {
+  padding: 10px;
+  background: purple;
+  outline: 0;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 80px;
+}
+.output {
+  display: flex;
+  gap: 10px;
+  font-size: 1.8rem;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+p {
+  margin: 0;
+}
+#note {
+  display: block;
+  font-size: 1.4rem;
+}
+
+.note {
+  display: flex;
+  gap: 5px;
+  font-size: 1.4rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
