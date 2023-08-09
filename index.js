@@ -29,7 +29,6 @@ function output(event) {
       dayDiff += 30;
       monthDiff -= 1;
     }
-
     let yourName = document.querySelector("#name").value;
     document.querySelector("#name-output").innerHTML = "Hello, " + yourName;
     document.querySelector("#age").innerHTML = "Your Age is " + yearDiff + " years " + monthDiff + " Months " + dayDiff + " Days ";
@@ -38,7 +37,7 @@ function output(event) {
       mynote = " হাই, বাবু । তুমার কাজ শুধু পড়াশুনা করা আর দুষ্টমি না করা ।😁";
     } else if (yearDiff >= 10 && yearDiff < 20) {
       mynote = "Now it's a high time to your study and gain skill";
-    } else if (yearDiff >= 20 && yearDiff < 25) {
+    } else if (yearDiff >= 20 && yearDiff < 30) {
       mynote = "You should find a good job😁";
     } else if (yearDiff >= 30 && yearDiff < 35) {
       mynote = "Your are going to bura😁. You should biya kora. // If Not yet";
